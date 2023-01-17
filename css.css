@@ -5,3 +5,11 @@
   min-width: 100%;
   min-height: 100%;
 }
+
+#estro {
+  position: fixed;
+  right: 200;
+  bottom: 200;
+  min-width: 20%;
+  min-height: 20%%;
+}
