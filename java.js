@@ -1,29 +1,10 @@
-var img= []
-  img[0]="sky_top_left.gif";
-  //img[1]="sky_top_left.gif";
+var images = ["estro.gif", "sky_top_left.gif"]
 
-//Select all elements on the page with the name attribute equal to VCRImage
-var images = document.querySelectorAll('[name=VCRImage]');
+var imgState = 0;
 
-//For each image bind the click event
-for(var i=0; i < images.length; i++)
-{
-  var image = images[i];
-  //https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener
-  image.addEventListener('click', imageClicked(), false);
-}
+var imgTag = document.getElementById("imgClickAndChange");
 
-function imageClicked()
-{
-  //Use a closure to wrap the counter variable
-  //so each image element has their own unique counter
-  var counter = 0;
-  return function(event)
-  {
-    //Increment counter
-    counter++;
-    //The context of "this" is the image element
-    //Use a modulus
-    this.src = img[counter % img.length];
-  }
-}
+imgTag.addEventListener("click", function (event) {
+  imgState = (++imgState % 3);
+	event.target.src = images[imgState];
+});
