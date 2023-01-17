@@ -1,6 +1,6 @@
 var img= []
   img[0]="sky_top_left.gif";
-  <!--img[1]="sky_top_left.gif";-->
+  //img[1]="sky_top_left.gif";
 
 //Select all elements on the page with the name attribute equal to VCRImage
 var images = document.querySelectorAll('[name=VCRImage]');
