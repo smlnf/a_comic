@@ -6,10 +6,7 @@
   min-height: 100%;
 }
 
-#estro {
-  position: fixed;
-  right: 1200;
-  bottom: 1200;
-  min-width: 5%;
-  min-height: 5%;
+img[name=VCRImage]:hover
+{
+  cursor:pointer;
 }
