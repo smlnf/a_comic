@@ -8,8 +8,8 @@
 
 #estro {
   position: fixed;
-  right: 200;
-  bottom: 200;
-  min-width: 20%;
-  min-height: 20%;
+  right: 1200;
+  bottom: 1200;
+  min-width: 5%;
+  min-height: 5%;
 }
