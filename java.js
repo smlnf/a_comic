@@ -1,5 +1,5 @@
 //Declare an image array same as calling new Array();
-var img = [];
+var img = []
 img[0] = "http://2.bp.blogspot.com/-DNISePZjJ4g/U9bSB5NjEzI/AAAAAAAARCw/K7OGOPjQd0Q/s1600/2.png";
 img[1] = "http://4.bp.blogspot.com/-MoL1MHN12Eo/U9bSB6EIS-I/AAAAAAAARCs/gUSKbzsg05g/s1600/3.png";
 img[2] = "http://2.bp.blogspot.com/-8ChQ3SBxYOY/U9bSBt4bcMI/AAAAAAAARDE/zLDJ1kP903A/s1600/1.png";
