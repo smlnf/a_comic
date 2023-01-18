@@ -6,7 +6,7 @@
   min-height: 100%;
 }
 
-img[name=VCRImage]:hover
+img[id="test"]:hover
 {
   cursor:pointer;
 }
