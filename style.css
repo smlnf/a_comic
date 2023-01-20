@@ -4,6 +4,7 @@
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  z-index: 1;
 }
 
 #test {
@@ -12,6 +13,7 @@
   bottom: 0;
   min-width: 20%;
   min-height: 20%;
+  z-index:9999;
 }
 
 img[id="test"]:hover
