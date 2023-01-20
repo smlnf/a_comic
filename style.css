@@ -9,14 +9,27 @@
 
 #test {
   position: fixed;
-  padding-top: 100px;
-  padding-right: 1000px;
-  max-width: 20%;
-  max-height: 20%;
+  padding-top: 50px;
+  padding-right: 800px;
+  max-width: 40%;
+  max-height: 40%;
   z-index:9999;
 }
 
+#test1 {
+  position: fixed;
+  padding-top: 50px;
+  padding-right: 600px;
+  max-width: 40%;
+  max-height: 40%;
+  z-index:9998;
+}
 img[id="test"]:hover
+{
+  cursor:pointer;
+}
+  
+img[id="test1"]:hover
 {
   cursor:pointer;
 }
