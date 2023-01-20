@@ -6,6 +6,14 @@
   min-height: 100%;
 }
 
+#test {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 20%;
+  min-height: 20%;
+}
+
 img[id="test"]:hover
 {
   cursor:pointer;
