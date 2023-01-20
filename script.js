@@ -32,10 +32,10 @@ function imageClicked()
 }
 
 //Declare an image array same as calling new Array();
-var img = []
-img[0] = "sky_middle_left.gif";
-img[1] = "leg_left.gif";
-img[2] = "green_screen.gif";
+var img1 = []
+img1[0] = "sky_middle_left.gif";
+img1[1] = "leg_left.gif";
+img1[2] = "green_screen.gif";
 
 
 //Select all elements on the page with the name attribute equal to test
@@ -60,6 +60,6 @@ function imageClicked()
     counter++;
     //The context of "this" is the image element
     //Use a modulus
-    this.src = img[counter % img.length];
+    this.src = img1[counter % img1.length];
   }
 }
