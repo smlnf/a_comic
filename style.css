@@ -9,10 +9,10 @@
 
 #test {
   position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 20%;
-  min-height: 20%;
+  right: 1000;
+  bottom: 800;
+  max-width: 20%;
+  max-height: 20%;
   z-index:9999;
 }
 
