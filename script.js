@@ -39,14 +39,14 @@ img1[2] = "green_screen.gif";
 
 
 //Select all elements on the page with the name attribute equal to test
-var images = document.querySelectorAll('[id=test1]');
+var images1 = document.querySelectorAll('[id=test1]');
 
 //For each image bind the click event
-for(var i=0; i < images.length; i++)
+for(var i=0; i < images1.length; i++)
 {
-  var image = images[i];
+  var image1 = images1[i];
   //https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener
-  image.addEventListener('click', imageClicked(), false);
+  image1.addEventListener('click', imageClicked(), false);
 }
 
 function imageClicked()
