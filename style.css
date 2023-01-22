@@ -11,8 +11,8 @@
   position: fixed;
   padding-top: 50px;
   padding-right: 800px;
-  max-width: 40%;
-  max-height: 40%;
+  max-width: 30%;
+  max-height: 30%;
   z-index:9999;
 }
 
@@ -20,8 +20,8 @@
   position: fixed;
   padding-top: 50px;
   padding-right: 600px;
-  max-width: 40%;
-  max-height: 40%;
+  max-width: 30%;
+  max-height: 30%;
   z-index:9998;
 }
 img[id="test"]:hover
