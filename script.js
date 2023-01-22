@@ -6,7 +6,7 @@ img[2] = "estro.gif";
 
 
 //Select all elements on the page with the name attribute equal to test
-var images = document.querySelectorAll('[id=test]');
+var images = document.querySelectorAll('[class=test]');
 
 //For each image bind the click event
 for(var i=0; i < images.length; i++)
@@ -39,7 +39,7 @@ img1[2] = "green_screen.gif";
 
 
 //Select all elements on the page with the name attribute equal to test
-var images1 = document.querySelectorAll('[id=test1]');
+var images1 = document.querySelectorAll('[class=test1]');
 
 //For each image bind the click event
 for(var i=0; i < images1.length; i++)
