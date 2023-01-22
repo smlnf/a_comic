@@ -46,10 +46,10 @@ for(var i=0; i < images1.length; i++)
 {
   var image1 = images1[i];
   //https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener
-  image1.addEventListener('click', imageClicked(), false);
+  image1.addEventListener('click', imageClicked1(), false);
 }
 
-function imageClicked()
+function imageClicked1()
 {
   //Use a closure to wrap the counter variable
   //so each image element has their own unique counter
