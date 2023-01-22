@@ -7,29 +7,30 @@
   z-index: 1;
 }
 
-#test {
+.test {
   position: fixed;
-  padding-top: 50px;
-  padding-right: 800px;
-  max-width: 30%;
-  max-height: 30%;
+  left: 70px;
+  bottom: 600px;
+  max-width: 320px;
+  max-height: 320px;
   z-index:9999;
 }
 
-#test1 {
+.test1 {
   position: fixed;
-  padding-top: 50px;
-  padding-right: 600px;
-  max-width: 30%;
-  max-height: 30%;
+  left: 500px;
+  bottom: 600px;
+  max-width: 320px;
+  max-height: 320px;
   z-index:9998;
 }
-img[id="test"]:hover
+
+img[class="test"]:hover
 {
   cursor:pointer;
 }
   
-img[id="test1"]:hover
+img[class="test1"]:hover
 {
   cursor:pointer;
 }
