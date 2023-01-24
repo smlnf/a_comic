@@ -48,6 +48,8 @@ for(var i=0; i < images1.length; i++)
   //https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener
   image1.addEventListener('click', imageClicked1(), false);
 }
+  else;
+     i=1
 
 function imageClicked1()
 {
