@@ -25,12 +25,26 @@
   z-index:9998;
 }
 
+.test2 {
+  position: fixed;
+  left: 1000px;
+  bottom: 600px;
+  max-width: 320px;
+  max-height: 320px;
+  z-index:9997;
+}
+
 img[class="test"]:hover
 {
   cursor:pointer;
 }
   
 img[class="test1"]:hover
+{
+  cursor:pointer;
+}
+
+img[class="test2"]:hover
 {
   cursor:pointer;
 }
