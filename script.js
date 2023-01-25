@@ -65,9 +65,9 @@ function imageClicked1()
 
 //Declare an image array same as calling new Array();
 var img2 = []
-img1[0] = "teeth.gif";
-img1[1] = "sky_middle_right.gif";
-img1[2] = "leg_right.gif";
+img2[0] = "teeth.gif";
+img2[1] = "sky_middle_right.gif";
+img2[2] = "leg_right.gif";
 
 
 //Select all elements on the page with the name attribute equal to test
