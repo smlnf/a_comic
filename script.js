@@ -4,8 +4,6 @@ img[1] = "sky_top_left.gif";
 img[2] = "estro.gif";
 img[3] = "face.gif";
 
-
-
 //Select all elements on the page with the name attribute equal to test
 var images = document.querySelectorAll('[class=test]');
 
@@ -48,9 +46,6 @@ for(var i=0; i <= images1.length; i++)
   //https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener
   image1.addEventListener('click', imageClicked1(), false);
 }
-//else
-//....figure out how to reset i to zero at 4
-  //(i=4; i=0)
 
 function imageClicked1()
 {
