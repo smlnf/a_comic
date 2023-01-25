@@ -78,7 +78,7 @@ for(var i=0; i < images2.length; i++)
 {
   var image2 = images2[i];
   //https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener
-  image1.addEventListener('click', imageClicked2(), false);
+  image2.addEventListener('click', imageClicked2(), false);
 }
 
 function imageClicked2()
