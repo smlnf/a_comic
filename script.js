@@ -48,7 +48,9 @@ for(var i=0; i < images1.length; i++)
   //https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener
   image1.addEventListener('click', imageClicked1(), false);
 }
-//else....figure out how to reset i to zero at 4
+else
+//....figure out how to reset i to zero at 4
+  (i=4; i=0)
 
 function imageClicked1()
 {
