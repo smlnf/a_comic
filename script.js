@@ -62,3 +62,36 @@ function imageClicked1()
     this.src = img1[counter % img1.length];
   }
 }
+
+//Declare an image array same as calling new Array();
+var img2 = []
+img1[0] = "teeth.gif";
+img1[1] = "sky_middle_right.gif";
+img1[2] = "leg_right.gif";
+
+
+//Select all elements on the page with the name attribute equal to test
+var images2 = document.querySelectorAll('[class=test1]');
+
+//For each image bind the click event
+for(var i=0; i < images2.length; i++)
+{
+  var image1 = images2[i];
+  //https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener
+  image1.addEventListener('click', imageClicked1(), false);
+}
+
+function imageClicked2()
+{
+  //Use a closure to wrap the counter variable
+  //so each image element has their own unique counter
+  var counter = 0;
+  return function(event)
+  {
+    //Increment counter
+    counter++;
+    //The context of "this" is the image element
+    //Use a modulus
+    this.src = img2[counter % img2.length];
+  }
+}
