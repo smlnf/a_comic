@@ -71,14 +71,14 @@ img1[2] = "leg_right.gif";
 
 
 //Select all elements on the page with the name attribute equal to test
-var images2 = document.querySelectorAll('[class=test1]');
+var images2 = document.querySelectorAll('[class=test2]');
 
 //For each image bind the click event
 for(var i=0; i < images2.length; i++)
 {
   var image1 = images2[i];
   //https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener
-  image1.addEventListener('click', imageClicked1(), false);
+  image1.addEventListener('click', imageClicked2(), false);
 }
 
 function imageClicked2()
