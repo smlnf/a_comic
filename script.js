@@ -1,8 +1,8 @@
 //Declare an image array same as calling new Array();
 var img = []
 img[0] = "sky_top_left.gif";
-img[1] = "estro.gif";
-img[2] = "face.gif";
+img[1] = "face.gif";
+img[2] = "estro.gif";
 
 //Select all elements on the page with the name attribute equal to test
 var images = document.querySelectorAll('[class=test]');
