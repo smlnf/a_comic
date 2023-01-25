@@ -10,7 +10,7 @@ img[3] = "face.gif";
 var images = document.querySelectorAll('[class=test]');
 
 //For each image bind the click event
-for(var i=0; i < images.length; i++)
+for(var i=0; i <= images.length; i++)
 {
   var image = images[i];
   //https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener
@@ -42,15 +42,15 @@ img1[3] = "green_screen.gif";
 var images1 = document.querySelectorAll('[class=test1]');
 
 //For each image bind the click event
-for(var i=0; i < images1.length; i++)
+for(var i=0; i <= images1.length; i++)
 {
   var image1 = images1[i];
   //https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener
   image1.addEventListener('click', imageClicked1(), false);
 }
-else
+//else
 //....figure out how to reset i to zero at 4
-  (i=4; i=0)
+  //(i=4; i=0)
 
 function imageClicked1()
 {
