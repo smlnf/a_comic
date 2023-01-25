@@ -1,8 +1,8 @@
 //Declare an image array same as calling new Array();
 var img = []
-img[0] = "sky_top_left.gif";
-img[1] = "face.gif";
-img[2] = "estro.gif";
+img[1] = "estro.gif";
+img[2] = "sky_top_left.gif";
+img[3] = "face.gif";
 
 //Select all elements on the page with the name attribute equal to test
 var images = document.querySelectorAll('[class=test]');
@@ -32,9 +32,10 @@ function imageClicked()
 
 //Declare an image array same as calling new Array();
 var img1 = []
-img1[0] = "sky_middle_left.gif";
-img1[1] = "leg_left.gif";
-img1[2] = "green_screen.gif";
+img1[1] = "green_screen.gif";
+img1[2] = "sky_middle_left.gif";
+img1[3] = "leg_left.gif";
+
 
 //Select all elements on the page with the name attribute equal to test
 var images1 = document.querySelectorAll('[class=test1]');
