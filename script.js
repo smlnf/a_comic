@@ -76,7 +76,7 @@ var images2 = document.querySelectorAll('[class=test2]');
 //For each image bind the click event
 for(var i=0; i < images2.length; i++)
 {
-  var image1 = images2[i];
+  var image2 = images2[i];
   //https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener
   image1.addEventListener('click', imageClicked2(), false);
 }
