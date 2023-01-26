@@ -8,27 +8,27 @@
 }
 
 .test {
-  position: fixed;
-  left: 70px;
-  bottom: 600px;
+  position: relative;
+  left: 5%;
+  top: 40px;
   max-width: 320px;
   max-height: 320px;
   z-index:9999;
 }
 
 .test1 {
-  position: fixed;
-  left: 500px;
-  bottom: 600px;
+  position: relative;
+  left: 10%;
+  top: 40px;
   max-width: 320px;
   max-height: 320px;
   z-index:9998;
 }
 
 .test2 {
-  position: fixed;
-  left: 1000px;
-  bottom: 600px;
+  position: relative;
+  left: 15%;
+  top: 40px;
   max-width: 320px;
   max-height: 320px;
   z-index:9997;
