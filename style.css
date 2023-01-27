@@ -34,6 +34,15 @@
   z-index:9997;
 }
 
+.test3 {
+  position: relative;
+  left: 5%;
+  top: 40px;
+  max-width: 320px;
+  max-height: 320px;
+  z-index:9997;
+}
+
 img[class="test"]:hover
 {
   cursor:pointer;
@@ -45,6 +54,11 @@ img[class="test1"]:hover
 }
 
 img[class="test2"]:hover
+{
+  cursor:pointer;
+}
+
+img[class="test3"]:hover
 {
   cursor:pointer;
 }
