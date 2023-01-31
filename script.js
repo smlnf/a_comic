@@ -156,7 +156,7 @@ function imageClicked5()
 var img6 = []
 img6[0] = "mouth.gif";
 img6[1] = "sky_bmiddle_right.gif";
-img6[2] = "glitch.gif";
+img6[2] = "glitch_right.gif";
 
 var images6 = document.querySelectorAll('[class=test6]');
 
