@@ -46,7 +46,7 @@
 .test4 {
   position: relative;
   left: 5%;
-  top: 500px;
+  top: 300px;
   max-width: 320px;
   max-height: 320px;
   z-index:9997;
@@ -55,7 +55,7 @@
 .test5 {
   position: relative;
   left: 10%;
-  top: 500px;
+  top: 300px;
   max-width: 320px;
   max-height: 320px;
   z-index:9997;
@@ -64,7 +64,7 @@
 .test6 {
   position: relative;
   left: 15%;
-  top: 500px;
+  top: 300px;
   max-width: 320px;
   max-height: 320px;
   z-index:9997;
@@ -73,13 +73,48 @@
 .test7 {
   position: relative;
   left: 20%;
-  top: 500px;
+  top: 300px;
   max-width: 320px;
   max-height: 320px;
   z-index:9997;
 }
 
-img[class="test", "test1", "test2", "test3", "test4", "test5", "test6", "test7"]:hover
+img[class="test"]:hover
+{
+  cursor:pointer;
+}
+
+img[class="test1"]:hover
+{
+  cursor:pointer;
+}
+
+img[class="test2"]:hover
+{
+  cursor:pointer;
+}
+
+img[class="test3"]:hover
+{
+  cursor:pointer;
+}
+
+img[class="test4"]:hover
+{
+  cursor:pointer;
+}
+
+img[class="test5"]:hover
+{
+  cursor:pointer;
+}
+
+img[class="test6"]:hover
+{
+  cursor:pointer;
+}
+
+img[class="test7"]:hover
 {
   cursor:pointer;
 }
