@@ -102,3 +102,103 @@ function imageClicked3()
     this.src = img3[counter % img3.length];
   }
 }
+
+var img4 = []
+img4[0] = "thorns_left.gif";
+img4[1] = "sky_bottom_left.gif";
+img4[2] = "glitch_left.gif";
+
+var images4 = document.querySelectorAll('[class=test4]');
+
+for(var i=0; i < images4.length; i++)
+{
+  var image4 = images4[i];
+
+  image4.addEventListener('click', imageClicked4(), false);
+}
+
+function imageClicked4()
+{
+
+  var counter = 0;
+  return function(event)
+  {
+    counter++;
+    this.src = img4[counter % img4.length];
+  }
+}
+
+var img5 = []
+img5[0] = "thorns_right.gif";
+img5[1] = "sky_bmiddle_left.gif";
+img5[2] = "leg.gif";
+
+var images5 = document.querySelectorAll('[class=test5]');
+
+for(var i=0; i < images5.length; i++)
+{
+  var image5 = images5[i];
+
+  image5.addEventListener('click', imageClicked5(), false);
+}
+
+function imageClicked5()
+{
+
+  var counter = 0;
+  return function(event)
+  {
+    counter++;
+    this.src = img5[counter % img5.length];
+  }
+}
+
+var img6 = []
+img6[0] = "mouth.gif";
+img6[1] = "sky_bmiddle_right.gif";
+img6[2] = "glitch.gif";
+
+var images6 = document.querySelectorAll('[class=test6]');
+
+for(var i=0; i < images6.length; i++)
+{
+  var image6 = images6[i];
+
+  image6.addEventListener('click', imageClicked6(), false);
+}
+
+function imageClicked6()
+{
+
+  var counter = 0;
+  return function(event)
+  {
+    counter++;
+    this.src = img6[counter % img6.length];
+  }
+}
+
+var img7 = []
+img7[0] = "hand_bottom.gif";
+img7[1] = "sky_bottom_right.gif";
+img7[2] = "drip.gif";
+
+var images7 = document.querySelectorAll('[class=test7]');
+
+for(var i=0; i < images7.length; i++)
+{
+  var image7 = images7[i];
+
+  image7.addEventListener('click', imageClicked7(), false);
+}
+
+function imageClicked7()
+{
+
+  var counter = 0;
+  return function(event)
+  {
+    counter++;
+    this.src = img7[counter % img7.length];
+  }
+}
