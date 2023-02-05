@@ -40,7 +40,7 @@
   top: 40px;
   max-width: 320px;
   max-height: 320px;
-  z-index:9997;
+  z-index:9996;
 }
 
 .test4 {
@@ -49,34 +49,34 @@
   top: 450px;
   max-width: 320px;
   max-height: 320px;
-  z-index:9997;
+  z-index:9995;
 }
 
 .test5 {
   position: relative;
-  left: 5%;
-  top: 450px;
+  left: 20%;
+  top: 0px;
   max-width: 320px;
   max-height: 320px;
-  z-index:9997;
+  z-index:9994;
 }
 
 .test6 {
   position: relative;
-  left: 10%;
-  top: 450px;
+  left: 25%;
+  top: 0px;
   max-width: 320px;
   max-height: 320px;
-  z-index:9997;
+  z-index:9993;
 }
 
 .test7 {
   position: relative;
-  left: 15%;
-  top: 450px;
+  left: 30%;
+  top: 0px;
   max-width: 320px;
   max-height: 320px;
-  z-index:9997;
+  z-index:9992;
 }
 
 img[class="test"]:hover
