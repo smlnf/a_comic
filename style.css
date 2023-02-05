@@ -45,8 +45,8 @@
 
 .test4 {
   position: relative;
-  left: 20%;
-  top: 250px;
+  right: 63%;
+  top: 450px;
   max-width: 320px;
   max-height: 320px;
   z-index:9997;
@@ -55,7 +55,7 @@
 .test5 {
   position: relative;
   left: 5%;
-  top: 250px;
+  top: 450px;
   max-width: 320px;
   max-height: 320px;
   z-index:9997;
@@ -64,7 +64,7 @@
 .test6 {
   position: relative;
   left: 10%;
-  top: 250px;
+  top: 450px;
   max-width: 320px;
   max-height: 320px;
   z-index:9997;
@@ -73,7 +73,7 @@
 .test7 {
   position: relative;
   left: 15%;
-  top: 300px;
+  top: 450px;
   max-width: 320px;
   max-height: 320px;
   z-index:9997;
